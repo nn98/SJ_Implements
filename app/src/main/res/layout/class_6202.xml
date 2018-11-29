@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/re"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/Test"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TestText"/>
+        <TextView
+            android:id="@+id/ClickTest"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:id="@+id/set"
+            android:background="#8822ffff"
+            android:orientation="horizontal"
+            android:weightSum="6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn1"
+                android:layout_weight="1"
+                android:background="#99000000"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="1dp"
+                android:text="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn2"
+                android:layout_weight="1"
+                android:background="#99000000"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="1dp"
+                android:text="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn3"
+                android:layout_weight="1"
+                android:background="#99000000"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="1dp"
+                android:text="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn4"
+                android:layout_weight="1"
+                android:background="#99000000"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="1dp"
+                android:text="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn5"
+                android:layout_weight="1"
+                android:background="#99000000"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="1dp"
+                android:text="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn6"
+                android:layout_weight="1"
+                android:background="#99000000"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="1dp"
+                android:text="6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
