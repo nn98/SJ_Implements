@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
             b.setText("" + i);
             b.setId(i);
             b.setTextSize(10);
-            b.setLayoutParams(new LinearLayout.LayoutParams(110, LinearLayout.LayoutParams.WRAP_CONTENT));
+            b.setLayoutParams(new LinearLayout.LayoutParams(80, 80));
             layout8.addView(b);
             if(i%2==1) {
                 TextView t=new TextView((this));
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
             b.setText("" + i);
             b.setId(i);
             b.setTextSize(10);
-            b.setLayoutParams(new LinearLayout.LayoutParams(110, LinearLayout.LayoutParams.WRAP_CONTENT));
+            b.setLayoutParams(new LinearLayout.LayoutParams(80, 80));
             layout7.addView(b);
             if(i%2==1) {
                 TextView t=new TextView((this));
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
             b.setText("" + i);
             b.setId(i);
             b.setTextSize(10);
-            b.setLayoutParams(new LinearLayout.LayoutParams(110, LinearLayout.LayoutParams.WRAP_CONTENT));
+            b.setLayoutParams(new LinearLayout.LayoutParams(80, 80));
             layout6.addView(b);
             if(i%2==1) {
                 TextView t=new TextView((this));
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
             b.setText("" + i);
             b.setId(i);
             b.setTextSize(10);
-            b.setLayoutParams(new LinearLayout.LayoutParams(110, LinearLayout.LayoutParams.WRAP_CONTENT));
+            b.setLayoutParams(new LinearLayout.LayoutParams(80, 80));
             layout5.addView(b);
             if(i%2==1) {
                 TextView t=new TextView((this));
@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
             b.setText("" + i);
             b.setId(i);
             b.setTextSize(10);
-            b.setLayoutParams(new LinearLayout.LayoutParams(110, LinearLayout.LayoutParams.WRAP_CONTENT));
+            b.setLayoutParams(new LinearLayout.LayoutParams(80, 80));
             layout4.addView(b);
             if(i%2==1) {
                 TextView t=new TextView((this));
@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
             b.setText("" + i);
             b.setId(i);
             b.setTextSize(10);
-            b.setLayoutParams(new LinearLayout.LayoutParams(110, LinearLayout.LayoutParams.WRAP_CONTENT));
+            b.setLayoutParams(new LinearLayout.LayoutParams(80, 80));
             layout3.addView(b);
             if(i%2==1) {
                 TextView t=new TextView((this));
@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
             b.setText("" + i);
             b.setId(i);
             b.setTextSize(10);
-            b.setLayoutParams(new LinearLayout.LayoutParams(110, LinearLayout.LayoutParams.WRAP_CONTENT));
+            b.setLayoutParams(new LinearLayout.LayoutParams(80, 80));
             layout2.addView(b);
             if(i%2==1) {
                 TextView t=new TextView((this));
